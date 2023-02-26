@@ -1,0 +1,9 @@
+.cover__background {
+    max-width: 100%;
+    opacity: 0.7;
+    object-position: center;
+}
+
+.cover__background:hover {
+    opacity: 0.2;
+}
