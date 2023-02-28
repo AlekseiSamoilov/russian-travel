@@ -6,6 +6,24 @@
     line-height: 163%;
     padding-bottom: 27px;
 }
+
 .place__paragraph:last-child {
     padding-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        padding-bottom: 25px;
+    }
 }

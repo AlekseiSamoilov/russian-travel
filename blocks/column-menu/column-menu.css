@@ -1,0 +1,7 @@
+.column-menu {}
+
+@media screen and (max-width: 320px) {
+    .column-menu {
+        max-width: 118px;
+    }
+}

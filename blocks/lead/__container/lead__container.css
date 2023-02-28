@@ -4,3 +4,15 @@
     flex-direction: column;
     padding-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__container {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__container {
+        padding-bottom: 64px;
+    }
+}

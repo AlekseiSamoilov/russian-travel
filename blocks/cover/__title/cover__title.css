@@ -11,3 +11,27 @@
     right: /*17.33rem*/312px;
     z-index: 50;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        top: 195px;
+        right: 232px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        top: 115px;
+        right: 104px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    top: 33px;
+    right: 16px;
+}
+}

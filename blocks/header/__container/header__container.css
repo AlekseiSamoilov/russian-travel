@@ -5,3 +5,17 @@
     padding: 28px 48px 56px 48px;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        min-height: 42px;
+        padding: 28px 24px 48px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__container {
+        min-height: 42px;
+        padding: 16px 16px 48px 16px;
+    }
+}
