@@ -1,8 +1,37 @@
 .cover {
     max-width: 1184px;
+    max-height: 740px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
     position: relative;
-    /*background-image: url(../images/cover-trains.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
+    gap: 32px;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        max-height: 200px;
+        gap: 16px;
+    }
 }
