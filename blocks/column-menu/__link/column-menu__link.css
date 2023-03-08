@@ -1,5 +1,5 @@
 .column-menu__link {
-    padding-right: 18px;
+    /*padding-right: 18px;*/
     text-decoration: none;
     color: inherit;
     font-weight: 400;
@@ -7,14 +7,13 @@
     line-height: 18px;
 }
 
-.column-menu__link:last-child {
+/*.column-menu__link:last-child {
     padding: 0;
-}
+}*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .column-menu__link {
-        display: block;
-        padding-bottom: 32px;
+        /*padding-bottom: 32px;*/
         font-size: 24px;
         line-height: 24px;
     }

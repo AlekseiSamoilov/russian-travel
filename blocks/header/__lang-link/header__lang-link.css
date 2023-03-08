@@ -2,14 +2,19 @@
     padding-right: 18px;
     color: inherit;
     font-weight: 400;
-    line-height: calc(28 / 18 * 100%);
+    line-height: 28px;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
     padding-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
     .header__lang-link {
         line-height: 20px;
     }
