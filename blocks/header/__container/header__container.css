@@ -4,27 +4,26 @@
     justify-content: space-between;
     min-height: 52px;
     padding: 28px 48px 56px 48px;
-    align-items: center;
-    box-sizing: border-box;
+    align-items: end;
+    margin: 0 auto;
+
 }
 
-@media screen and (max-width: 1279) {
+@media screen and (max-width: 1279px) {
     .header__container {
         max-width: 928px;
-        padding: 28px 24px 48px 24px;
+        padding: 28px 0 48px 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header__container {
         min-height: 42px;
-        padding: 28px 24px 48px 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header__container {
-        min-height: 42px;
         padding: 16px 16px 48px 16px;
     }
 }

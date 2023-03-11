@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 767px) {
     .column-menu {
-        max-width: 118px;
         gap: 32px;
+        flex-direction: column;
     }
 }

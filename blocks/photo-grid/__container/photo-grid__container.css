@@ -18,7 +18,8 @@
     .photo-grid__container {
         /*grid-template-columns: repeat(auto-fit, 352px);*/
         gap: 16px;
-        padding-bottom: 0 24px 88px 24px;
+        padding-bottom: 88px;
+        margin: 0;
     }
 }
 
@@ -26,6 +27,6 @@
     .photo-grid__container {
         /*grid-template-columns: repeat(auto-fit, minmax(288px max-content));*/
         gap: 12px;
-        padding-bottom: 0 16px 64px 16px;
+        padding-bottom:64px;
     }
 }
