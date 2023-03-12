@@ -7,9 +7,9 @@
     line-height: 18px;
 }
 
-/*.column-menu__link:last-child {
-    padding: 0;
-}*/
+.column-menu__link:hover {
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 767px) {
     .column-menu__link {
