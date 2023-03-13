@@ -13,13 +13,6 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    .lead__container {
-        padding-bottom: 88px;
-        
-    }
-}
-
 @media screen and (max-width: 767px) {
     .lead__container {
         padding-bottom: 64px;
